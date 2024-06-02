@@ -1,0 +1,36 @@
+{
+    "name": "soulmate",
+    "version": "0.0.5",
+    "description": "A package that says affectionate phrases in various languages.",
+    "main": "src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mdmuhtasimfuadfahim/soulmate.git"
+    },
+    "scripts": {
+        "start": "node example.js"
+    },
+    "keywords": [
+        "phrases",
+        "languages",
+        "affectionate",
+        "google-tts-api",
+        "play-sound",
+        "quotable.io"
+    ],
+    "author": "Md. Muhtasim Fuad Fahim <muhtasimfuadahim@proton.me>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mdmuhtasimfuadfahim/soulmate/issues"
+    },
+    "homepage": "https://github.com/mdmuhtasimfuadfahim/soulmate#readme",
+    "dependencies": {
+        "axios": "^1.7.2",
+        "google-translate-api-x": "^10.6.8",
+        "google-tts-api": "^2.0.2",
+        "play-sound": "^1.1.6"
+    },
+    "devDependencies": {
+        "eslint": "^9.4.0"
+    }
+}
