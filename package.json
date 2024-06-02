@@ -1,11 +1,11 @@
 {
-    "name": "soulmate",
-    "version": "0.0.5",
+    "name": "lovemate",
+    "version": "1.0.0",
     "description": "A package that says affectionate phrases in various languages.",
     "main": "src/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mdmuhtasimfuadfahim/soulmate.git"
+        "url": "https://github.com/mdmuhtasimfuadfahim/lovemate.git"
     },
     "scripts": {
         "start": "node example.js"
@@ -21,9 +21,9 @@
     "author": "Md. Muhtasim Fuad Fahim <muhtasimfuadahim@proton.me>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/mdmuhtasimfuadfahim/soulmate/issues"
+        "url": "https://github.com/mdmuhtasimfuadfahim/lovemate/issues"
     },
-    "homepage": "https://github.com/mdmuhtasimfuadfahim/soulmate#readme",
+    "homepage": "https://github.com/mdmuhtasimfuadfahim/lovemate#readme",
     "dependencies": {
         "axios": "^1.7.2",
         "google-translate-api-x": "^10.6.8",

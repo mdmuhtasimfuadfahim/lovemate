@@ -1,14 +1,14 @@
-[![NPM Version](https://img.shields.io/npm/v/soulmate.svg?style=flat-square)](https://www.npmjs.com/package/soulmate) [![NPM Monthly Downloads](https://img.shields.io/npm/dm/soulmate?style=flat-square)](https://npmjs.org/package/soulmate)
+[![NPM Version](https://img.shields.io/npm/v/lovemate.svg?style=flat-square)](https://www.npmjs.com/package/lovemate) [![NPM Monthly Downloads](https://img.shields.io/npm/dm/lovemate?style=flat-square)](https://npmjs.org/package/lovemate)
 
-[![Last Commit](https://img.shields.io/github/last-commit/mdmuhtasimfuadfahim/soulmate?style=flat-square)](https://github.com/mdmuhtasimfuadfahim/soulmate/commits/) ![Language Most Used](https://img.shields.io/github/languages/top/mdmuhtasimfuadfahim/soulmate?style=flat-square) [![Implementations](https://img.shields.io/badge/%F0%9F%92%A1-implementations-8C8E93.svg?style=flat-square)](https://github.com/mdmuhtasimfuadfahim/soulmate/issues) ![Repository Size](https://img.shields.io/github/repo-size/mdmuhtasimfuadfahim/soulmate?style=flat-square)
+[![Last Commit](https://img.shields.io/github/last-commit/mdmuhtasimfuadfahim/lovemate?style=flat-square)](https://github.com/mdmuhtasimfuadfahim/lovemate/commits/) ![Language Most Used](https://img.shields.io/github/languages/top/mdmuhtasimfuadfahim/lovemate?style=flat-square) [![Implementations](https://img.shields.io/badge/%F0%9F%92%A1-implementations-8C8E93.svg?style=flat-square)](https://github.com/mdmuhtasimfuadfahim/lovemate/issues) ![Repository Size](https://img.shields.io/github/repo-size/mdmuhtasimfuadfahim/lovemate?style=flat-square)
 
-[![Forks](https://img.shields.io/github/forks/mdmuhtasimfuadfahim/soulmate?style=social)](https://github.com/mdmuhtasimfuadfahim/soulmate/network/members) [![Stars](https://img.shields.io/github/stars/mdmuhtasimfuadfahim/soulmate?style=social)](https://github.com/mdmuhtasimfuadfahim/soulmate/stargazers) [![Watches](https://img.shields.io/github/watchers/mdmuhtasimfuadfahim/soulmate?style=social)](https://github.com/mdmuhtasimfuadfahim/soulmate/watchers)
+[![Forks](https://img.shields.io/github/forks/mdmuhtasimfuadfahim/lovemate?style=social)](https://github.com/mdmuhtasimfuadfahim/lovemate/network/members) [![Stars](https://img.shields.io/github/stars/mdmuhtasimfuadfahim/lovemate?style=social)](https://github.com/mdmuhtasimfuadfahim/lovemate/stargazers) [![Watches](https://img.shields.io/github/watchers/mdmuhtasimfuadfahim/lovemate?style=social)](https://github.com/mdmuhtasimfuadfahim/lovemate/watchers)
 
 [![Author GitHub](https://img.shields.io/github/followers/mdmuhtasimfuadfahim?label=Follow&style=social)](https://github.com/mdmuhtasimfuadfahim)
 
-# soulmate 💖🎵
+# lovemate 💖🎵
 
-`soulmate` is a fun npm package designed to express affectionate phrases in various languages through voice.
+`lovemate` is a fun npm package designed to express affectionate phrases in various languages through voice.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ Solumate provides an extensive repertoire of romantic phrases in over `30+` lang
 
 ## Supported Languages
 
-`soulmate` supports a wide range of languages, including:
+`lovemate` supports a wide range of languages, including:
 
 - `af-ZA`: Afrikaans (South Africa)
 - `ar-XA`: Arabic (Gulf)
@@ -72,37 +72,37 @@ Solumate provides an extensive repertoire of romantic phrases in over `30+` lang
 
 ## Dependencies and API
 
-`soulmate` uses the following npm packages:
+`lovemate` uses the following npm packages:
 
 - `google-tts-api`: This package is used to generate the audio files from the translated phrases.
 - `google-translate-api-x`: This package is used to translate the phrases into the desired language.
 - `play-sound`: This package is used to play the generated audio files.
 
-In addition, `soulmate` uses the `quotable.io` API to fetch random love quotes.
+In addition, `lovemate` uses the `quotable.io` API to fetch random love quotes.
 
 ## Installation
 
-To install `soulmate`, use npm or yarn:
+To install `lovemate`, use npm or yarn:
 
 ```sh
-npm install soulmate
+npm install lovemate
 ```
 
 or
 
 ```sh
-yarn add soulmate
+yarn add lovemate
 ```
 
 ## Usage
 
 ```sh
-const soulmateVoice = require("soulmate");
+const lovemateVoice = require("lovemate");
 
 (async () => {
   try {
     const language = "bn-IN"; // Specify the language (e.g., 'en-US' for English, 'es-ES' for Spanish, etc.)
-    const phrase = await soulmateVoice(language); // for English you don't need to pass the language parameter
+    const phrase = await lovemateVoice(language); // for English you don't need to pass the language parameter
     console.log("Message played successfully!", phrase);
   } catch (error) {
     console.error("Error:", error.message);
@@ -137,7 +137,7 @@ Contributions, issues, and feature requests are what make the open-source commun
 - Push to the Branch (`git push origin feature/AmazingFeature`)
 - Open a Pull Request
 
-Feel free to check the [issues page](https://github.com/mdmuhtasimfuadfahim/soulmate/issues) for any existing issues or to create a new one.
+Feel free to check the [issues page](https://github.com/mdmuhtasimfuadfahim/lovemate/issues) for any existing issues or to create a new one.
 
 - Contributions, issues and features requests are welcome!
 - 📮 Submit PRs to help solve issues or add features

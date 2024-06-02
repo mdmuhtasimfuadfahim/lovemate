@@ -19,7 +19,6 @@ const getPhrases = async (language = 'en-US') => {
 
         // Translate the quote to the specified language
         const translated = await translate(phrase, { to: language.split('-')[0] });
-
         return translated.text;
     } catch (error) {
         console.error('Error fetching or translating phrases:', error.message);

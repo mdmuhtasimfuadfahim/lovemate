@@ -1,4 +1,4 @@
-// Supported language list
+// Supported language list by Google Text-to-Speech API (Standard)
 const languages = {
     'af-ZA': 'Afrikaans (South Africa)',
     'ar-XA': 'Arabic (Gulf)',

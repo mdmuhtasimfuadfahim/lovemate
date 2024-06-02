@@ -24,12 +24,12 @@ const getVoiceUrl = (text, lang) => {
 
 /*
 ----------------------------
-Function name: soulmateVoice
+Function name: lovemateVoice
 ----------------------------
 This function generates the voice from text using Google Text-to-Speech API.
 It takes one parameter: the language code.
 */
-const soulmateVoice = async (language = 'en-US') => {
+const lovemateVoice = async (language = 'en-US') => {
     try {
         // Check if the language is supported
         if (!languages[language]) {
@@ -41,7 +41,7 @@ const soulmateVoice = async (language = 'en-US') => {
         // Generate the URL for the Google Text-to-Speech API
         const url = getVoiceUrl(text, language);
         // Define the path for the output file
-        const filePath = path.join(__dirname, 'soulamte-voice.mp3');
+        const filePath = path.join(__dirname, 'lovemate-voice.mp3');
 
         // Send a GET request to the Google Text-to-Speech API
         const response = await axios({
@@ -70,4 +70,4 @@ const soulmateVoice = async (language = 'en-US') => {
     }
 };
 
-module.exports = soulmateVoice;
+module.exports = lovemateVoice;
