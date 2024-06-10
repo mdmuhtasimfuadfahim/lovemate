@@ -1,6 +1,6 @@
 {
     "name": "lovemate",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A package that says affectionate phrases in various languages.",
     "main": "src/index.js",
     "repository": {
