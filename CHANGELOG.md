@@ -6,7 +6,7 @@ All notable changes to the `lovemate` package will be documented in this file.
 
 ### Added
 
-- Added `github workflows` to publish the main repository to NPM automatically.
+- Added `github workflows` to publish the main repository to NPM automatically with CI/CD.
 
 ### Improved
 
