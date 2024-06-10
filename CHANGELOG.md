@@ -2,7 +2,7 @@
 
 All notable changes to the `lovemate` package will be documented in this file.
 
-## [1.0.1] - 2024-06-10
+## [1.0.2] - 2024-06-10
 
 ### Added
 
