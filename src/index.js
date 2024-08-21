@@ -59,6 +59,14 @@ const lovemateVoice = async (language = 'en-US') => {
                 console.error('Error playing the sound:', err);
                 return;
             }
+
+            // Delete the file after playing
+            fs.unlink(filePath, (err) => {
+                if (err) {
+                    console.error('Error deleting the file:', err);
+                    return;
+                }
+            });
         });
 
         // Return the text and the URL

@@ -2,6 +2,12 @@
 
 All notable changes to the `lovemate` package will be documented in this file.
 
+## [1.0.4] - 2024-08-21
+
+### Improved
+
+- Removed the mechanism for deleting the `lovemate-voice.mp3` file after it has been played.
+
 ## [1.0.2] - 2024-06-10
 
 ### Added
